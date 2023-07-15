@@ -14,8 +14,8 @@ const Cast = lazy(() => import('../components/Cast/Cast'));
 const Reviews = lazy(() => import('../components/Reviews/Reviews'));
 
 const App = () => {
-  const [page, setPage] = useState(1);
-  const [search, setSearch] = useState('');
+  const [setPage] = useState(1);
+  const [setSearch] = useState('');
 
   const handleSubmit = ({ search }) => {
     if (search === '') {
